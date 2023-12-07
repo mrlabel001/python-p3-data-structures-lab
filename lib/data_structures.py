@@ -47,4 +47,6 @@ def get_average_heat_level(spicy_foods):
     average_heat = total_heat/len(spicy_foods)
     return int(average_heat)
 
-
+def create_spicy_food(spicy_foods, spicy_food):
+    spicy_foods.append(spicy_food)
+    return spicy_foods
